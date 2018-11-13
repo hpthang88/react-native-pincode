@@ -231,8 +231,8 @@ class PinCode extends React.PureComponent {
               numberOfLines: 1,
               adjustsFontSizeToFit: true
             },
-            this.props.buttonDeleteAllText
-              ? this.props.buttonDeleteAllText.toUpperCase()
+            this.props.buttonDeleteText
+              ? this.props.buttonDeleteText.toUpperCase()
               : textDeleteAllButtonDefault.toUpperCase()
           )
         )
