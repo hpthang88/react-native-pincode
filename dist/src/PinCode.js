@@ -62,6 +62,7 @@ class PinCode extends React.PureComponent {
       return React.createElement(
         react_native_1.TouchableOpacity,
         {
+          key: text,
           style: [
             styles.buttonCircle,
             this.state.currentButtonPressed === text && {
@@ -106,6 +107,7 @@ class PinCode extends React.PureComponent {
       return React.createElement(
         react_native_1.View,
         {
+          key: `key-${index}`,
           style: this.props.styleCircleHiddenPassword
             ? this.props.styleCircleHiddenPassword
             : styles.topViewCirclePassword
